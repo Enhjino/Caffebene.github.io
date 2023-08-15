@@ -179,13 +179,13 @@ section {
 .parent .div3 img {
       max-width: 100%;
       max-height: auto;
-      object-fit: fill;
+      object-fit: cover;
 }
 
 .parent .div2 img {
       max-width: auto;
       max-height: 100%;
-      object-fit: fill;
+      object-fit: cover;
 }
 
 .div1 {
@@ -210,4 +210,14 @@ section {
 
 .div6 {
       grid-area: 4 / 5 / 8 / 11;
+}
+.grid-text {
+      position: absolute;
+      width: 18rem;
+      padding: 0.5rem 1rem;
+      color: white;
+      font-size: 1.5rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      text-align: center;
 }

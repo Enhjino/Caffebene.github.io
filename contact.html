@@ -22,6 +22,7 @@
   <meta property="og:url" content="https://enhjino.github.io/CaffeBene.github.io/" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/contact.css">
   <link href="https://fonts.googleapis.com/css2?family=Kurale&display=swap" rel="stylesheet" />
@@ -31,11 +32,10 @@
 </head>
 <body>
   <header-component></header-component>
+  <section>
+    <div class="breadcrumbs"><a href="index.html"><i class="fas fa-home"></i></a> &gt;  Холбоо барих</div>
+  </section>
   <main>
-    <div class="breadcrumbs">
-      <a href="index.html">Home</a> &gt;
-      Холбоо барих
-    </div>
     <div>
       <img src="images/Background/contact.jpg" alt="contact Background image" class="cnt_img" />
     </div>
@@ -46,7 +46,6 @@
       <form action="/submit_form.php" method="post">
         <label for="name">Нэр*</label><br />
         <input type="text" id="name" name="name" required /><br />
-
         <label for="email">И-Майл хаяг*</label><br />
         <input type="email" id="email" name="email" required /><br />
 

@@ -13,9 +13,16 @@ body {
       overflow-x: hidden;
       margin:  0 auto;
 }
+html{
+      scroll-behavior: smooth;
+}
 a{
       text-decoration: none;
 }
 li{
       list-style: none;
+}
+.breadcrumbs{
+      padding-top: 5rem;
+      padding-left: 10vw;
 }

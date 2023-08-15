@@ -1,11 +1,17 @@
-div {
+/* div {
       display: flex;
       justify-content: center; 
       align-items: center;
-}
+} */
 
 .cnt_img {
       max-width: 100%;
       max-height: auto;
       object-fit: fill;
+}
+.background{
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      position: relative;
 }

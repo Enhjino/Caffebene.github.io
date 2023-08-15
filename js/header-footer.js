@@ -142,10 +142,13 @@ class HeaderComponent extends HTMLElement {
             hr.solid {
               border-top: 1px solid #745F50;
             }
+            .to-top {
+                transition: all .4s;
+            }
             </style>
             <footer>
             <section class="footer-top">
-              <li><a href="#"><span class="arrow arrow-top"></span></a></li>
+              <li><a href="#" class="to-top"><span class="arrow arrow-top"></span></a></li>
             </section>
           <hr class="solid">   
         <section class="bottom">
