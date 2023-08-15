@@ -54,7 +54,7 @@ class HeaderComponent extends HTMLElement {
         <section>
           <a href="index.html">
             <img
-              src="/images/Background/caffebene_logo.png"
+              src="images/Background/caffebene_logo.png"
               alt="Caffe Bene Logo"
             />
           </a>
@@ -150,7 +150,7 @@ class HeaderComponent extends HTMLElement {
           <hr class="solid">   
         <section class="bottom">
           <a href="index.html">
-            <img src="/images/Background/caffebene_logo.png" alt="Caffe Bene Logo" />
+            <img src="images/Background/caffebene_logo.png" alt="Caffe Bene Logo" />
           </a>
           <h4>
             © Caffe Bene Mongolia Registration number : ☎ 75553000
