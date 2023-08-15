@@ -34,7 +34,7 @@
 }
 
 .m1_photo {
-      background-image: url("images/Menu/home_page/special.webp");
+      background-image: url("../images/Menu/home_page/special.webp");
       background-size: cover;
       background-position: center;
       width: 240px;
@@ -47,7 +47,7 @@
 }
 
 .m2_photo {
-      background-image: url("images/Menu/home_page/coffee.webp");
+      background-image: url("../images/Menu/home_page/coffee.webp");
       background-size: cover;
       background-position: center;
       width: 240px;
@@ -60,7 +60,7 @@
 }
 
 .m3_photo {
-      background-image: url("images/Menu/home_page/beverages.webp");
+      background-image: url("../images/Menu/home_page/beverages.webp");
       background-size: cover;
       background-position: center;
       width: 240px;
@@ -73,7 +73,7 @@
 }
 
 .m4_photo {
-      background-image: url("images/Menu/home_page/dessert.webp");
+      background-image: url("../images/Menu/home_page/dessert.webp");
       background-size: cover;
       background-position: center;
       width: 240px;
