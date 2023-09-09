@@ -3,7 +3,10 @@
       justify-content: center; 
       align-items: center;
 } */
-
+.social-icon {
+      display: flex;
+      justify-content: center;
+}
 .cnt_img {
       /* background-size: contain; */
       /* background-position: right; */

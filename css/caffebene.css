@@ -15,3 +15,28 @@
       justify-content: center;
       position: relative;
 }
+.year-list {
+      display: flex;
+      overflow-x: scroll;
+    }
+
+    .year {
+      padding: 10px;
+      cursor: pointer;
+      border: 1px solid #ccc;
+    }
+
+    .company-history {
+      margin-top: 20px;
+    }
+
+    .history-section {
+      display: none;
+      padding: 10px;
+      border: 1px solid #ccc;
+      background-color: #f9f9f9;
+    }
+
+    .history-section.active {
+      display: block;
+    }
